@@ -1,7 +1,7 @@
 Zain Cash iOS
 ===================
 ----------
-[![CocoaPods](https://img.shields.io/badge/Pod-1.0.3-1182C2.svg)]() [![CocoaPods](https://img.shields.io/badge/Platform-iOS-989898.svg)]() [![CocoaPods](https://img.shields.io/badge/Language-Swift%203.0-orange.svg)]()
+[![CocoaPods](https://img.shields.io/badge/Pod-1.0.3-1182C2.svg)]() [![Platform](https://img.shields.io/badge/Platform-iOS-989898.svg)]() [![Language](https://img.shields.io/badge/Language-Swift%203.0-orange.svg)]()
 
 ![enter image description here](http://i.imgur.com/YB9jgDo.jpg)
 
@@ -39,13 +39,16 @@ payment.key = "secretsecretsecretsecretsecretsecretsecrets"
 payment.merchant = "572487bca0a4d6f2688c1ee3"
 
 // Product Ammout
-payment.amount = 100
+payment.amount = 1000
+
+// hours to expires | default is 4 hours
+payment.expiresIn = 2
 
 // Which type of Product
 payment.serviceType = "AAA books website"
 
 // Your phone number wallet
-payment.msisdn = 9647911111111
+payment.msisdn = "9647911111111"
 
 // User order id (optional)
 payment.orderId = 1234
@@ -53,8 +56,16 @@ payment.orderId = 1234
 // Make transaction here
 payment.makePayment { response, error in
 // here JSON response of transaction (success or failure)
-
 }
+
+// transaction id, will get it after make payment
+payment.transactionID = "42da42da42da42da42da42d"
+
+// check transaction status here
+payment.checkTransaction { response, error in
+// here JSON response of transaction (success or failure)
+}
+
 ```
 
 ----------
