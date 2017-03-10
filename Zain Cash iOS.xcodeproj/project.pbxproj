@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE5065DAFF6B7DB66B26AA20 /* Pods_Zain_Cash_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E6777717EF7C6B4FA3D7D5 /* Pods_Zain_Cash_iOS.framework */; };
+		E2DDA4541E72FC070004F2C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DDA4531E72FC070004F2C4 /* AppDelegate.swift */; };
+		E2DDA4561E72FC070004F2C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DDA4551E72FC070004F2C4 /* ViewController.swift */; };
+		E2DDA4591E72FC070004F2C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2DDA4571E72FC070004F2C4 /* Main.storyboard */; };
+		E2DDA45B1E72FC070004F2C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DDA45A1E72FC070004F2C4 /* Assets.xcassets */; };
+		E2DDA45E1E72FC070004F2C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2DDA45C1E72FC070004F2C4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C75CB6E0CF1FF5898CFEC7F /* Pods-Zain Cash iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zain Cash iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zain Cash iOS/Pods-Zain Cash iOS.release.xcconfig"; sourceTree = "<group>"; };
+		31E6777717EF7C6B4FA3D7D5 /* Pods_Zain_Cash_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zain_Cash_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2DDA4501E72FC070004F2C4 /* Zain Cash iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zain Cash iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2DDA4531E72FC070004F2C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2DDA4551E72FC070004F2C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2DDA4581E72FC070004F2C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2DDA45A1E72FC070004F2C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2DDA45D1E72FC070004F2C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2DDA45F1E72FC070004F2C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5FD9B43399985E3E881401A /* Pods-Zain Cash iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zain Cash iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zain Cash iOS/Pods-Zain Cash iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2DDA44D1E72FC070004F2C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5065DAFF6B7DB66B26AA20 /* Pods_Zain_Cash_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2DDA4471E72FC070004F2C4 = {
+			isa = PBXGroup;
+			children = (
+				E2DDA4521E72FC070004F2C4 /* Zain Cash iOS */,
+				E2DDA4511E72FC070004F2C4 /* Products */,
+				E6829792EA2DA35B06019EAD /* Pods */,
+				E7A176A7943C1095BB10044F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2DDA4511E72FC070004F2C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2DDA4501E72FC070004F2C4 /* Zain Cash iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2DDA4521E72FC070004F2C4 /* Zain Cash iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E2DDA4531E72FC070004F2C4 /* AppDelegate.swift */,
+				E2DDA4551E72FC070004F2C4 /* ViewController.swift */,
+				E2DDA4571E72FC070004F2C4 /* Main.storyboard */,
+				E2DDA45A1E72FC070004F2C4 /* Assets.xcassets */,
+				E2DDA45C1E72FC070004F2C4 /* LaunchScreen.storyboard */,
+				E2DDA45F1E72FC070004F2C4 /* Info.plist */,
+			);
+			path = "Zain Cash iOS";
+			sourceTree = "<group>";
+		};
+		E6829792EA2DA35B06019EAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5FD9B43399985E3E881401A /* Pods-Zain Cash iOS.debug.xcconfig */,
+				2C75CB6E0CF1FF5898CFEC7F /* Pods-Zain Cash iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E7A176A7943C1095BB10044F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31E6777717EF7C6B4FA3D7D5 /* Pods_Zain_Cash_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2DDA44F1E72FC070004F2C4 /* Zain Cash iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2DDA4621E72FC070004F2C4 /* Build configuration list for PBXNativeTarget "Zain Cash iOS" */;
+			buildPhases = (
+				141A845502EB371C086E7983 /* [CP] Check Pods Manifest.lock */,
+				E2DDA44C1E72FC070004F2C4 /* Sources */,
+				E2DDA44D1E72FC070004F2C4 /* Frameworks */,
+				E2DDA44E1E72FC070004F2C4 /* Resources */,
+				A8605B2693E6D5DEE7CC32F1 /* [CP] Embed Pods Frameworks */,
+				D1C2C60589FC678118F8B430 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zain Cash iOS";
+			productName = "Zain Cash iOS";
+			productReference = E2DDA4501E72FC070004F2C4 /* Zain Cash iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2DDA4481E72FC070004F2C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ahmed Raad";
+				TargetAttributes = {
+					E2DDA44F1E72FC070004F2C4 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8H2A23J84A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E2DDA44B1E72FC070004F2C4 /* Build configuration list for PBXProject "Zain Cash iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2DDA4471E72FC070004F2C4;
+			productRefGroup = E2DDA4511E72FC070004F2C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2DDA44F1E72FC070004F2C4 /* Zain Cash iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2DDA44E1E72FC070004F2C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2DDA45E1E72FC070004F2C4 /* LaunchScreen.storyboard in Resources */,
+				E2DDA45B1E72FC070004F2C4 /* Assets.xcassets in Resources */,
+				E2DDA4591E72FC070004F2C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		141A845502EB371C086E7983 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8605B2693E6D5DEE7CC32F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zain Cash iOS/Pods-Zain Cash iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1C2C60589FC678118F8B430 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zain Cash iOS/Pods-Zain Cash iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2DDA44C1E72FC070004F2C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2DDA4561E72FC070004F2C4 /* ViewController.swift in Sources */,
+				E2DDA4541E72FC070004F2C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2DDA4571E72FC070004F2C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2DDA4581E72FC070004F2C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2DDA45C1E72FC070004F2C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2DDA45D1E72FC070004F2C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2DDA4601E72FC070004F2C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2DDA4611E72FC070004F2C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2DDA4631E72FC070004F2C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5FD9B43399985E3E881401A /* Pods-Zain Cash iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8H2A23J84A;
+				INFOPLIST_FILE = "Zain Cash iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.d3stud.Zain-Cash-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E2DDA4641E72FC070004F2C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C75CB6E0CF1FF5898CFEC7F /* Pods-Zain Cash iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8H2A23J84A;
+				INFOPLIST_FILE = "Zain Cash iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.d3stud.Zain-Cash-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2DDA44B1E72FC070004F2C4 /* Build configuration list for PBXProject "Zain Cash iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2DDA4601E72FC070004F2C4 /* Debug */,
+				E2DDA4611E72FC070004F2C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2DDA4621E72FC070004F2C4 /* Build configuration list for PBXNativeTarget "Zain Cash iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2DDA4631E72FC070004F2C4 /* Debug */,
+				E2DDA4641E72FC070004F2C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2DDA4481E72FC070004F2C4 /* Project object */;
+}
