@@ -7,7 +7,7 @@ Zain Cash iOS
 
 Usage
 -------------
-To run the example project, clone the repo, and run pod install from the Example directory first.
+To run the project, clone the repo, and run pod install from the Example directory first.
 
 Requirements
 -----------
@@ -51,7 +51,7 @@ payment.msisdn = 9647911111111
 payment.orderId = 1234
 
 // Make transaction here
-payment.makePayment { resul, error in
+payment.makePayment { response, error in
 // here JSON response of transaction (success or failure)
 
 }
