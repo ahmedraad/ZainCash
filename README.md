@@ -61,14 +61,7 @@ payment.makePayment { response, error in
 
 Coming Soon !
 -------------------
-
--  Transaction Status
 - macOS Support
 - tvOS Support
 - Swift Server [ Vapor ]
 
-----------
-
-Author
--------------------
-* ***Twitter: [@ahmedg350](https://twitter.com/ahmedg350)***
