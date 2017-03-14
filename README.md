@@ -2,7 +2,7 @@ Zain Cash iOS
 ===================
 ----------
 
-[![Platform](https://img.shields.io/badge/Platform-iOS-989898.svg)]() [![Language](https://img.shields.io/badge/Language-Swift%203.0-orange.svg)]()
+[!Cocoapods](https://img.shields.io/badge/Pod-1.0.4-0F81C1.svg)() [![Platform](https://img.shields.io/badge/Platform-iOS-989898.svg)]() [![Language](https://img.shields.io/badge/Language-Swift%203.0-orange.svg)]()
 
 ![enter image description here](http://i.imgur.com/YB9jgDo.jpg)
 
