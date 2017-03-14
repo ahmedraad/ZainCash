@@ -72,7 +72,5 @@ payment.checkTransaction { response, error in
 
 Coming Soon !
 -------------------
-- macOS Support
-- tvOS Support
 - Swift Server [ Vapor ]
 
